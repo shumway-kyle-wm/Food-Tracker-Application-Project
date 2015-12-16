@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<style>
+    .bold{
+        font-weight: bold;
+    }
+    body {
+        background-color: gold ;
+    }
+</style>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <title>Food Tracker</title>
+    </head>
+
+    <body>
+    <div id="body">
+        <form>
+              Name: <input id="name"/>
+              Description: <input id="desc"/>
+              Date: <input id="date" type="date"/>
+              Shelf Life: <input id="life" type="number"/>
+              Expiration Date: <input id="exp" type="date"/>
+             <input type="button" value="Submit" onclick="update()"/>
+
+         </form>
+    <table id="table" border="1" style="width:100%;">
+             <tr>
+            
+                     <td>Name</td>
+                    <td>Description</td>
+                     <td>Date</td>
+                    <td>Shelf - Life</td>
+                    <td>Expiration</td>
+
+             </tr>
+            </table>
+        <script type="text/javascript" src="script.js"></script>
+    </div>
+    </body>
+
+</html>
